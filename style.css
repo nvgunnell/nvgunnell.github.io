@@ -1,5 +1,5 @@
 p {font-family: Arial; color: gray;}
-body {background-color: darkblue; background-image: "Hawaii.jpg";}
+body {background-color: darkblue; background-image src: "Hawaii.jpg";}
 h1 {text-align: center;
     font-family: Georgia;
     color: white;
