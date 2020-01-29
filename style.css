@@ -1,6 +1,5 @@
 p {font-family: Arial; color: gray;}
-body {background-color: rgba(10, 10, 255, 0.7); background-image: url("Hawaii.jpg");
-      background-size: cover; background-position: center; height: 300px;}
+body {background-color: rgba(10, 10, 255, 0.7);}
 h1 {text-align: center;
     font-family: Georgia;
     color: white;
@@ -12,3 +11,6 @@ h3 {color: white; font-style: italic}
 ul {color: gray;}
 .cursive {font-family: cursive;}
 .capitalize {text-transform: capitalize;}
+
+.image {background-image: url("Hawaii.jpg");
+      background-size: cover; background-position: center; height: 300px;}
