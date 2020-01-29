@@ -13,4 +13,4 @@ ul {color: gray;}
 .capitalize {text-transform: capitalize;}
 
 .image {background-image: url("Hawaii.jpg");
-      background-size: cover; height: 500px;}
+      background-size: cover; height: 500px; object-fit: contain;}
