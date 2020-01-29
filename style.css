@@ -12,5 +12,7 @@ ul {color: gray;}
 .cursive {font-family: cursive;}
 .capitalize {text-transform: capitalize;}
 
+.Overview {border-bottom: 1px solid rgba(255, 255, 255, 0.5);}
+
 .image {background-image: url("Hawaii.jpg");
       background-size: cover; height: 400px; object-fit: contain; ; background-position: center}
