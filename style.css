@@ -38,7 +38,7 @@ ul {
     width: 50%;
  }
 
-.image {
+.HAimage {
     background-image: url("Hawaii.jpg");
     background-size: cover;
     height: 400px;
