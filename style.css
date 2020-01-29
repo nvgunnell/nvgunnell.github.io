@@ -1,4 +1,4 @@
-p {font-family: Arial; color: white;}
+p {font-family: Arial; color: gray;}
 body {background-color: darkblue;}
 h1 {text-align: center;
     font-family: Georgia;
@@ -7,4 +7,6 @@ h1 {text-align: center;
 h2 {color: white;}
 h3 {color: white;}
 
-ul {color: white;}
+ul {color: gray;}
+.cursive {font-family: cursive;}
+.capitalize {text-transform: capitalize;}
