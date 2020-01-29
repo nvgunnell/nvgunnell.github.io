@@ -11,4 +11,4 @@ h3 {color: white; font-style: italic}
 ul {color: gray;}
 .cursive {font-family: cursive;}
 .capitalize {text-transform: capitalize;}
-body {background-image: 'Hawaii.jpg';}
+body {background-image: ("Hawaii.jpg");}
