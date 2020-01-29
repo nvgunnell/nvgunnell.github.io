@@ -1,5 +1,5 @@
 p {font-family: Arial; color: gray;}
-body {background-color: darkblue;}
+body {background-color: darkblue; background-image: ("Hawaii.jpg");}
 h1 {text-align: center;
     font-family: Georgia;
     color: white;
@@ -11,4 +11,4 @@ h3 {color: white; font-style: italic}
 ul {color: gray;}
 .cursive {font-family: cursive;}
 .capitalize {text-transform: capitalize;}
-body {background-image: ("Hawaii.jpg");}
+
