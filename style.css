@@ -3,19 +3,34 @@ p {
     color: gray;
  }
 
-body {background-color: rgba(0, 0, 255, 0.1);}
+body {
+    background-color: rgba(0, 0, 255, 0.1);
+    }
 
 h1 {text-align: center;
     font-family: Georgia;
     color: white;
     font-size: 300%;
   }
-h2 {color: white; font-weight: bold;}
-h3 {color: white; font-style: italic}
 
-ul {color: gray;}
-.cursive {font-family: cursive;}
-.capitalize {text-transform: capitalize;}
+h2 {
+    color: white;
+    font-weight: bold;
+    }
+
+h3 {
+    color: white;
+    font-style: italic
+    }
+
+ul {
+    color: gray;
+    }
+
+.title {
+    font-family: cursive;
+    text-transform: capitalize;
+    }
 
 .Overview {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
