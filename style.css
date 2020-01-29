@@ -1,5 +1,10 @@
-p {font-family: Arial; color: gray;}
+p {
+    font-family: Arial;
+    color: gray;
+ }
+
 body {background-color: rgba(200, 200, 255, 0.1);}
+
 h1 {text-align: center;
     font-family: Georgia;
     color: white;
@@ -18,5 +23,10 @@ ul {color: gray;}
     width: 50%;
  }
 
-.image {background-image: url("Hawaii.jpg");
-      background-size: cover; height: 400px; object-fit: contain; ; background-position: center}
+.image {
+    background-image: url("Hawaii.jpg");
+    background-size: cover;
+    height: 400px;
+    object-fit: contain;
+    background-position: center;
+    }
