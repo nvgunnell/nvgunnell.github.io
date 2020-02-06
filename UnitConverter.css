@@ -76,7 +76,6 @@ body {
 }
 
 #BYU1 {
-    align: left;
     width: 150px;
     margin-left: 25px;
     vertical-align: middle;
@@ -84,7 +83,6 @@ body {
 }
 
 #BYU2 {
-    img-align: right;
     width: 150px;
     margin-right: 25px;
     vertical-align: middle;
