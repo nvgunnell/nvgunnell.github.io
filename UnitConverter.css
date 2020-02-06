@@ -48,8 +48,8 @@ p {
 
 #Convert {
   font-size: 200%;
-  color: Red
   text-align: center;
+  color: Red
 }
 
 #outResult {
