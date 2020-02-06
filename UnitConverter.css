@@ -51,6 +51,7 @@ p {
   font-size: 200%;
   text-align: center;
   color: Red;
+  font-family: cursive;
 }
 
 #outResult {
