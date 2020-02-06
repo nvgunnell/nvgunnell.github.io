@@ -1,11 +1,45 @@
 <!DOCTYPE html>
-<head>
-    <title>Unit Converter</title>
-</head>
-
 <html>
 <body>
-<h1>Unit Converter</h1>
+
+<h1 class="title">Unit Converter</h1>
+
+  <h2 class="author">Nathan Gunnell</h2>
+
+
+<div class= "Input">
+<input id="inputNumbers" type="text" value="" placeholder="Input">
+  <select id="inputUnits">
+    <option value="0">Inches</option>
+    <option value="1">Feet</option>
+    <option value="2">Yards</option>
+    <option value="3">Miles</option>
+    <option value="4">Centimeters</option>
+    <option value="5">Meters</option>
+    <option value="6">Kilometers</option>
+  </select>
+  </div>
+
+<p>To</p>
+
+<div class= "Output">
+   <select  id="outputUnits">
+    <option value="0">Inches</option>
+    <option value="1">Feet</option>
+    <option value="2">Yards</option>
+    <option value="3">Miles</option>
+    <option value="4">Centimeters</option>
+    <option value="5">Meters</option>
+    <option value="6">Kilometers</option>
+  </select>
+  </div>
+
+<br>
+
+<div class="Button">
+  <input type="button" id= "Convert" value = "Convert" onClick="convertFunc();">
+  </div>
+
 
 </body>
-</html>
+<html/>
