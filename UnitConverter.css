@@ -39,6 +39,7 @@ p {
 
 .Button {
   text-align: center;
+  border-radius: 12px;
 }
 
 #Convert {
