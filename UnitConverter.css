@@ -50,6 +50,7 @@ p {
 #Convert {
   font-size: 200%;
   text-align: center;
+  vertical-align: center;
   color: Red;
   font-family: cursive;
 }
