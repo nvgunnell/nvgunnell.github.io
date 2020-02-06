@@ -46,4 +46,6 @@ p {
 
 #outResult {
     font-weight: bold;
+    font-size: 300%;
+    font-family: Arial;
 }
