@@ -55,6 +55,7 @@ p {
   vertical-align: center;
   color: Red;
   font-family: cursive;
+  font-weight: bold;
 }
 
 #outResult {
