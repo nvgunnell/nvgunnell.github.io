@@ -27,6 +27,7 @@
 p {
   text-align: center;
   color: white
+  font-family: cursive;
 }
 
 .Output {
@@ -49,7 +50,7 @@ p {
 #Convert {
   font-size: 200%;
   text-align: center;
-  color: Red
+  color: Red;
 }
 
 #outResult {
