@@ -10,6 +10,7 @@
 
 .Input {
   text-align: center;
+  margin-top: 30px;
 }
 
 #inputNumbers {
@@ -25,6 +26,7 @@
 
 p {
   text-align: center;
+  color: white
 }
 
 .Output {
@@ -53,7 +55,7 @@ p {
 .heading {
     background-color: rgba(200, 200, 200, 0.50);
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 body {
