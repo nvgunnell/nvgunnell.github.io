@@ -43,3 +43,7 @@ p {
   font-size: 200%;
   color: Red
 }
+
+#outResult {
+    font-style: bold;
+}
