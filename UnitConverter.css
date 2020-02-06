@@ -1,0 +1,45 @@
+.title {
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+  color: blue;
+  font-size: 100%
+}
+
+.Input {
+  text-align: center;
+}
+
+#inputNumbers {
+  height: 19px;
+}
+
+#inputUnits {
+  margin-left: auto;
+  margin-right: auto;
+  color: Blue;
+  height: 25px;
+}
+
+p {
+  text-align: center;
+}
+
+.Output {
+  text-align: center;
+}
+
+#outputUnits {
+  height: 25px
+}
+
+.Button {
+  text-align: center;
+}
+
+#Convert {
+  font-size: 200%;
+  color: Red
+}
