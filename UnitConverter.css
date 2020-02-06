@@ -75,7 +75,7 @@ body {
     background-color: rgba(0, 15, 60, 0.90);
 }
 
-.BYU {
+#BYU1 {
     align: left;
     width: 150px;
     margin-left: 25px;
@@ -83,7 +83,7 @@ body {
     position: relative;
 }
 
-.BYU1 {
+#BYU2 {
     img-align: right;
     width: 150px;
     margin-right: 25px;
