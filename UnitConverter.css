@@ -88,5 +88,5 @@ body {
     width: 150px;
     margin-right: 25px;
     vertical-align: center;
-    position: relative;
+    float: right;
 }
