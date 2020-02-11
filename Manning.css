@@ -1,0 +1,90 @@
+.title {
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.author {
+  text-align: center;
+  color: Black;
+  font-size: 150%
+}
+
+.Input {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#inputNumbers {
+  height: 19px;
+}
+
+#inputUnits {
+  margin-left: auto;
+  margin-right: auto;
+  color: Blue;
+  height: 25px;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+
+.Output {
+  text-align: center;
+}
+
+#outputUnits {
+  height: 25px
+}
+
+.Button {
+  text-align: center;
+  border-radius: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Convert {
+  font-size: 200%;
+  text-align: center;
+  vertical-align: center;
+  color: Blue;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#outResult {
+    font-weight: bold;
+    font-size: 300%;
+    font-family: Arial;
+    color: white
+}
+
+.heading {
+    background-color: rgba(255, 255, 255, 0.60);
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+
+body {
+    background-color: rgba(0, 15, 60, 0.90);
+}
+
+#BYU1 {
+    width: 150px;
+    margin-left: 25px;
+    vertical-align: middle;
+    float:left;
+}
+
+#BYU2 {
+    width: 150px;
+    margin-right: 25px;
+    vertical-align: middle;
+    float: right;
+}
