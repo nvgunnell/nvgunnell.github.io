@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <link href="Manning.css" type="text/css" rel="stylesheet">
+    <title>Manning's Equation</title>
+</head>
+<html>
+<body>
+
+<div class="heading">
+<h1 class="title">Mannings Equation</h1>
+
+  <img src="BYU.jpg" id="BYU1">
+  <img src="BYU.jpg" id="BYU2">
+
+  <h2 class="author">by Nathan Gunnell</h2>
+
+  <h2 class="author">Ho an'ireo izay tsy mahay manao matematika</h2>
+
+</div>
+
+<div class= "Input">
+<input id="inputNumbers" type="text" value="" placeholder="Input">
+  <select id="inputUnits">
+    <option value="inches">Inches</option>
+    <option value="feet">Feet</option>
+    <option value="yards">Yards</option>
+    <option value="miles">Miles</option>
+    <option value="cm">Centimeters</option>
+    <option value="meters">Meters</option>
+    <option value="km">Kilometers</option>
+  </select>
+  </div>
+
+<p>To</p>
+
+<div class= "Output">
+   <select  id="outputUnits">
+    <option value="oinches">Inches</option>
+    <option value="ofeet">Feet</option>
+    <option value="oyards">Yards</option>
+    <option value="omiles">Miles</option>
+    <option value="ocm">Centimeters</option>
+    <option value="ometers">Meters</option>
+    <option value="okm">Kilometers</option>
+  </select>
+  </div>
+
+<br>
+
+<div class="Button">
+  <input type="button" class="Button" id= "Convert" value = "Convert" onClick="convertFunc();">
+  </div>
+
+<div class= "Result">
+  <p id = "outResult"></p>
+  </div>
+
+<script src="Manning.js"></script>
+
+</body>
+<html/>
