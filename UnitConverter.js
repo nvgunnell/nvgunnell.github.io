@@ -9,7 +9,7 @@ var outUnits = document.getElementById('outputUnits').value;
    Result = Input + ' Inches';
   break;
    case 'inches' + 'ofeet':
-   Result = Input*0.083333 + ' Feet';
+   Result = Input/12 + ' Feet';
   break;
    case 'inches' + 'oyards':
    Result = Input*0.027778 + ' Yards';
