@@ -18,13 +18,21 @@
 
 </div>
 
-<p>
-    k=
-    n=
-    R<sub>h</sub>=
-    S=
+<p id="def">
+    v = Cross-sectional mean velocity<br>
+    k = Standard (1.486 for English units, 1 for SI)<br>
+    n = Roughness coefficient ranging from 0.01 to 0.06<br>
+    R<sub>h</sub> = Hydraulic radius<br>
+    S = Slope or gradient<br>
 </p>
 
+<div class = "inputs">
+    <input id="kinput" type="text" value="" placeholder="k">
+    <input id="ninput" type="text" value="" placeholder="n">
+    <input id="Rinput" type="text" value="" placeholder="R">
+    <input id="Sinput" type="text" value="" placeholder="S">
+</div>
+<!--
 <div class= "Input">
 <input id="inputNumbers" type="text" value="" placeholder="Input">
   <select id="inputUnits">
@@ -51,11 +59,11 @@
     <option value="okm">Kilometers</option>
   </select>
   </div>
-
+-->
 <br>
 
 <div class="Button">
-  <input type="button" class="Button" id= "Convert" value = "Convert" onClick="convertFunc();">
+  <input type="button" class="Button" id= "Convert" value = "Calculate" onClick="convertFunc();">
   </div>
 
 <div class= "Result">
