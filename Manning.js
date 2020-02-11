@@ -9,6 +9,8 @@ var R = Math.pow (Rinput,2/3)
 
 var Result = kinput/ninput*R*Sinput;
 
+var x = document.createElement("INPUT");
+x.setAttribute("type", "radio");
 
   document.getElementById('outResult').innerHTML = Result;
 }
