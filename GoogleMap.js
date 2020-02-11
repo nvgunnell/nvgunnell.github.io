@@ -10,16 +10,7 @@
                 '</div>'+
                 '<h1 id="firstHeading" class="firstHeading">Mountain View High School</h1>'+
                 '<div id="bodyContent">'+
-                  '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-                'sandstone rock formation in the southern part of the '+
-                'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
-                'south west of the nearest large town, Alice Springs; 450&#160;km '+
-                '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
-                'features of the Uluru - Kata Tjuta National Park. Uluru is '+
-                'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
-                'Aboriginal people of the area. It has many springs, waterholes, '+
-                'rock caves and ancient paintings. Uluru is listed as a World '+
-                'Heritage Site.</p>'+
+                  '<p>M.V.H.S., MVHS the best! Home of the bruins. Located on Center St. in Orem, this is where I went to high school. I took a geology class that led me to choose that as my major.</p>'+
                 '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
                 'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
                 '(last visited June 22, 2009).</p>'+
@@ -31,16 +22,7 @@
                 '</div>'+
                 '<h1 id="firstHeading" class="firstHeading">Papa Murphys</h1>'+
                 '<div id="bodyContent">'+
-                '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-                'sandstone rock formation in the southern part of the '+
-                'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
-                'south west of the nearest large town, Alice Springs; 450&#160;km '+
-                '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
-                'features of the Uluru - Kata Tjuta National Park. Uluru is '+
-                'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
-                'Aboriginal people of the area. It has many springs, waterholes, '+
-                'rock caves and ancient paintings. Uluru is listed as a World '+
-                'Heritage Site.</p>'+
+                '<p>I started working at Papa Murphys my sophomore year in high school and worked there until I moved to Logan for school.</p>'+
                 '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
                 'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
                 '(last visited June 22, 2009).</p>'+
@@ -52,16 +34,7 @@
                 '</div>'+
                 '<h1 id="firstHeading" class="firstHeading">Lakeridge Junior High School</h1>'+
                 '<div id="bodyContent">'+
-                '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-                'sandstone rock formation in the southern part of the '+
-                'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
-                'south west of the nearest large town, Alice Springs; 450&#160;km '+
-                '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
-                'features of the Uluru - Kata Tjuta National Park. Uluru is '+
-                'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
-                'Aboriginal people of the area. It has many springs, waterholes, '+
-                'rock caves and ancient paintings. Uluru is listed as a World '+
-                'Heritage Site.</p>'+
+                '<p>I went to Lakeridge Jr. High School.</p>'+
                 '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
                 'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
                 '(last visited June 22, 2009).</p>'+
