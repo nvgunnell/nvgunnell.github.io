@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-image: url("mission2.jpg");
+    /*background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    padding-bottom: 30px;*/
+}
