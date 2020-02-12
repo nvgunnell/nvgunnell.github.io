@@ -82,6 +82,7 @@ body {
 .Units {
     text-align:center;
     color: white;
+    padding-bottom: 10px;
 }
 
 #BYU1 {
@@ -96,6 +97,14 @@ body {
     margin-right: 25px;
     vertical-align: middle;
     float: right;
+}
+
+#img {
+    width: 400px;
+    float: right;
+    margin-right: 25px;
+    margin-left: -500px;
+    margin-top: 25px;
 }
 
 #def {
