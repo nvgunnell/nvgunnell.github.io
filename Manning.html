@@ -25,49 +25,23 @@
     v = Cross-sectional mean velocity<br>
     k = Standard (1.486 for English units, 1 for SI)<br>
     n = Roughness coefficient ranging from 0.01 to 0.06<br>
-    R<sub>h</sub> = Hydraulic radius<br>
+    R<sub>h</sub> = Hydraulic radius (m, ft)<br>
     S = Slope or gradient<br>
 </p>
 
+<div class="Units">
+    <input type="radio" name= unit id="english" value=" ft/s" <p id="label1">English Units</p>
+    <input type="radio" name= unit id="si" value=" m/s" onClick="siFunc();"<p id="label2">SI Units</p>
+</div>
+
 <div class = "inputs">
-    <input id="kinput" type="text" value="" placeholder="k">
+
     <input id="ninput" type="text" value="" placeholder="n">
     <input id="Rinput" type="text" value="" placeholder="R">
     <input id="Sinput" type="text" value="" placeholder="S">
 </div>
 
-<div class="Units">
-    <input type="radio" id="English Units" onClick="englishFunc()">
-    <input type="radio" id="SI Units" onClick="siFunc()">
-</div>
-<!--
-<div class= "Input">
-<input id="inputNumbers" type="text" value="" placeholder="Input">
-  <select id="inputUnits">
-    <option value="inches">Inches</option>
-    <option value="feet">Feet</option>
-    <option value="yards">Yards</option>
-    <option value="miles">Miles</option>
-    <option value="cm">Centimeters</option>
-    <option value="meters">Meters</option>
-    <option value="km">Kilometers</option>
-  </select>
-  </div>
 
-<p>To</p>
-
-<div class= "Output">
-   <select  id="outputUnits">
-    <option value="oinches">Inches</option>
-    <option value="ofeet">Feet</option>
-    <option value="oyards">Yards</option>
-    <option value="omiles">Miles</option>
-    <option value="ocm">Centimeters</option>
-    <option value="ometers">Meters</option>
-    <option value="okm">Kilometers</option>
-  </select>
-  </div>
--->
 <br>
 
 <div class="Button">
