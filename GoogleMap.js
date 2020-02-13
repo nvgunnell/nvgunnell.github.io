@@ -11,9 +11,7 @@
                 '<h1 id="firstHeading" class="firstHeading">Mountain View High School</h1>'+
                 '<div id="bodyContent">'+
                   '<p>M.V.H.S., MVHS the best! Home of the bruins. Located on Center St. in Orem, this is where I went to high school. I took a geology class that led me to choose that as my major.</p>'+
-                '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-                'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-                '(last visited June 22, 2009).</p>'+
+                '<img src="band.jpg" height="150px" id="band">'+
                 '</div>'+
                 '</div>';
 
@@ -23,9 +21,7 @@
                 '<h1 id="firstHeading" class="firstHeading">Papa Murphys</h1>'+
                 '<div id="bodyContent">'+
                 '<p>I started working at Papa Murphys my sophomore year in high school and worked there until I moved to Logan for school.</p>'+
-                '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-                'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-                '(last visited June 22, 2009).</p>'+
+                '<img src="pm.jpg" height="150px" id="pm">'+
                 '</div>'+
                 '</div>';
 
@@ -35,9 +31,7 @@
                 '<h1 id="firstHeading" class="firstHeading">Lakeridge Junior High School</h1>'+
                 '<div id="bodyContent">'+
                 '<p>I went to Lakeridge Jr. High School.</p>'+
-                '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-                'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-                '(last visited June 22, 2009).</p>'+
+                '<img src="lakeridge.jpg" height="150px" id="lakeridge">'+
                 '</div>'+
                 '</div>';
 
@@ -47,9 +41,7 @@
                 '<h1 id="firstHeading" class="firstHeading">Vineyard Elementary</h1>'+
                 '<div id="bodyContent">'+
                 '<p>I attended Vineyard Elementary. The school was only at this location while I was in 6th grade. Previously, it was located about 2 blocks away from my church building, right across the street from UVSC. The college bought my elementary school building and the new one was built in Vineyard.</p>'+
-                '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-                'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-                '(last visited June 22, 2009).</p>'+
+                '<img src="vineyard.jpg" height="150px" id="vineyard">'+
                 '</div>'+
                 '</div>';
 
@@ -59,9 +51,7 @@
                 '<h1 id="firstHeading" class="firstHeading">My Church</h1>'+
                 '<div id="bodyContent">'+
                 '<p>This was my church building growing up.</p>'+
-                '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-                'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-                '(last visited June 22, 2009).</p>'+
+                '<img src="bb.jpg" height="150px" id="bb">'+
                 '</div>'+
                 '</div>';
 
@@ -71,7 +61,7 @@
                 '<h1 id="firstHeading" class="firstHeading">My House</h1>'+
                 '<div id="bodyContent">'+
                 '<p>This is the house I grew up in. We moved here when I was 3 years old.</p>'+
-                '<img src="Young.jpg" id="pic">'+
+                '<img src="Young.jpg" height="150px" id="home">'+
                 '</div>'+
                 '</div>';
 

@@ -10,6 +10,44 @@
         padding: 0;
       }
 
-#pic {
-    width: 10 px;
+#home {
+    transform: rotate(270deg);
+    float: middle;
+    margin-left: 140px;
+    margin-top: -15px;
+}
+
+#pm {
+   /* transform: rotate(270deg); */
+    float: middle;
+    margin-left: 230px;
+    margin-top: -15px;
+}
+
+#vineyard {
+  /*  transform: rotate(270deg);*/
+    float: middle;
+    margin-left: 160px;
+    margin-top: 1px;
+}
+
+#lakeridge {
+  /*  transform: rotate(270deg); */
+    float: middle;
+    margin-left: 60px;
+    margin-top: 1px;
+}
+
+#bb {
+  /*  transform: rotate(270deg); */
+    float: middle;
+    margin-left: 18px;
+    margin-top: 1px;
+}
+
+#band {
+  /*  transform: rotate(270deg); */
+    float: middle;
+    margin-left: 210px;
+    margin-top: 1px;
 }
