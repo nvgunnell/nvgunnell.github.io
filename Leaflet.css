@@ -1,6 +1,6 @@
 #mapid {
-    height: 600px;
-    width: 95%;
+    height: 500px;
+    width: 70%;
     margin: auto;
 }
 
@@ -24,8 +24,9 @@
 }
 
 body {
-    background-color: rgba(0, 15, 60, 0.80);
-    }
+    background-image: url("timp.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 #home {
     transform: rotate(270deg);
