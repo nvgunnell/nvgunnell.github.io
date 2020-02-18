@@ -10,7 +10,7 @@
                 '</div>'+
                 '<h1 id="firstHeading" class="firstHeading">Mountain View High School</h1>'+
                 '<div id="bodyContent">'+
-                  '<p>M.V.H.S., MVHS the best! Home of the bruins. Located on Center St. in Orem, this is where I went to high school. I took a geology class that led me to choose that as my major.</p>'+
+                  '<p>M.V.H.S. MVHS the best! Home of the bruins. Located on Center St. in Orem, this is where I went to high school. I took a geology class that led me to choose that as my major.</p>'+
                 '<img src="band.jpg" height="150px" id="band">'+
                 '</div>'+
                 '</div>';

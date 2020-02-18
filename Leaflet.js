@@ -16,12 +16,30 @@ var vyard = L.marker([40.289213, -111.737545]).addTo(mymap);
 var church = L.marker([40.286016, -111.721776]).addTo(mymap);
 var pm = L.marker([40.297572, -111.700481]).addTo(mymap);
 
-home.bindPopup("<b>Hello world!</b><br>I am a popup.");
-mvhs.bindPopup("<b>Hello world!</b><br>I am a popup.");
-ljhs.bindPopup("<b>Hello world!</b><br>I am a popup.");
-vyard.bindPopup("<b>Hello world!</b><br>I am a popup.");
-church.bindPopup("<b>Hello world!</b><br>I am a popup.");
-pm.bindPopup("<b>Hello world!</b><br>I am a popup.");
+home.bindPopup('<h1>My House</h1>'+
+        "<p>This is the house I grew up in. We moved here when I was 3 years old.</p>"+
+        '<img src="Young.jpg" id="home">'
+        );
+mvhs.bindPopup('<h1>Mountain View High School</h1>'+
+        "<p>M.V.H.S. MVHS the best! Home of the bruins. This is where I went to high school. I took a geology class that led me to choose that as my major.</p>"+
+        '<img src="band.jpg" id="mvhs">'
+        );
+ljhs.bindPopup('<h1>Lakeridge Junior High School</h1>'+
+        "<p>I went to Lakeridge Jr. High School.</p>"+
+        '<img src="lakeridge.jpg" id="ljhs">'
+        );
+vyard.bindPopup('<h1>Vineyard Elementary</h1>'+
+        "<p>I attended Vineyard Elementary. The school was only at this location while I was in 6th grade. Previously, it was located about 2 blocks away from my church building, right across the street from UVSC. The college bought my elementary school building and the new one was built in Vineyard.</p>"+
+        '<img src="vineyard.jpg" id="vyard">'
+        );
+church.bindPopup('<h1>My Church</h1>'+
+        "<p>This was my church building growing up.</p>"+
+        '<img src="bb.jpg" id="church">'
+        );
+pm.bindPopup('<h1>Papa Murphys</h1>'+
+        "<p>I started working at Papa Murphys my sophomore year in high school and worked there until I moved to Logan for school.</p>"+
+        '<img src="pm.jpg" id="pm">'
+        );
 
 var hradius = L.circle([40.289251, -111.719683], {
     color: 'red',

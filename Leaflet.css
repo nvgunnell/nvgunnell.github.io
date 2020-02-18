@@ -2,3 +2,50 @@
     height: 650px;
 }
 
+#home {
+    transform: rotate(270deg);
+    float: middle;
+    margin-left: 20px;
+    margin-top: -15px;
+    height: 150px;
+}
+
+#pm {
+   /* transform: rotate(270deg); */
+    float: middle;
+/*    margin-left: 230px;*/
+  /*  margin-top: -10px;*/
+    height: 150px;
+}
+
+#vyard {
+  /*  transform: rotate(270deg);*/
+    float: middle;
+  /*  margin-left: 160px;*/
+    margin-top: 1px;
+    height: 150px;
+}
+
+#ljhs {
+  /*  transform: rotate(270deg); */
+    float: middle;
+  /*  margin-left: 60px;*/
+    margin-top: 1px;
+    height: 150px;
+}
+
+#church {
+  /*  transform: rotate(270deg); */
+    float: middle;
+  /*  margin-left: 18px;*/
+    margin-top: 1px;
+    height: 150px;
+}
+
+#mvhs {
+  /*  transform: rotate(270deg); */
+    float: middle;
+   /* margin-left: 210px;*/
+    margin-top: 1px;
+    height: 150px;
+}
