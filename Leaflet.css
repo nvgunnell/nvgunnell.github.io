@@ -1,51 +1,70 @@
 #mapid {
-    height: 650px;
+    height: 600px;
+    width: 95%;
+    margin: auto;
 }
+
+#heading {
+    font-family: calibri;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-family: arial;
+}
+
+#subhead {
+    text-align: center;
+    color: white;
+    font-size: 60%;
+    vertical-align: text-bottom;
+    font-family: arial;
+}
+
+body {
+    background-color: rgba(0, 15, 60, 0.80);
+    }
 
 #home {
     transform: rotate(270deg);
-    float: middle;
+    margin: auto;
     margin-left: 20px;
-    margin-top: -15px;
     height: 150px;
 }
 
 #pm {
    /* transform: rotate(270deg); */
-    float: middle;
 /*    margin-left: 230px;*/
-  /*  margin-top: -10px;*/
+    margin: auto;
     height: 150px;
 }
 
 #vyard {
   /*  transform: rotate(270deg);*/
-    float: middle;
   /*  margin-left: 160px;*/
-    margin-top: 1px;
+    margin: auto;
     height: 150px;
 }
 
 #ljhs {
   /*  transform: rotate(270deg); */
-    float: middle;
   /*  margin-left: 60px;*/
-    margin-top: 1px;
+    margin: auto;
     height: 150px;
 }
 
 #church {
   /*  transform: rotate(270deg); */
-    float: middle;
   /*  margin-left: 18px;*/
-    margin-top: 1px;
+    margin: auto;
     height: 150px;
 }
 
 #mvhs {
   /*  transform: rotate(270deg); */
-    float: middle;
    /* margin-left: 210px;*/
-    margin-top: 1px;
+    margin: auto;
     height: 150px;
 }
