@@ -16,6 +16,13 @@ var vyard = L.marker([40.289213, -111.737545]).addTo(mymap);
 var church = L.marker([40.286016, -111.721776]).addTo(mymap);
 var pm = L.marker([40.297572, -111.700481]).addTo(mymap);
 
+home.bindPopup("<b>Hello world!</b><br>I am a popup.");
+mvhs.bindPopup("<b>Hello world!</b><br>I am a popup.");
+ljhs.bindPopup("<b>Hello world!</b><br>I am a popup.");
+vyard.bindPopup("<b>Hello world!</b><br>I am a popup.");
+church.bindPopup("<b>Hello world!</b><br>I am a popup.");
+pm.bindPopup("<b>Hello world!</b><br>I am a popup.");
+
 var hradius = L.circle([40.289251, -111.719683], {
     color: 'red',
     fillColor: '#f03',
