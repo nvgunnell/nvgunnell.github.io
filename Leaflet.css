@@ -27,7 +27,7 @@
 
 #home {
     transform: rotate(270deg);
-    margin: auto;
+    margin-top: 10px;
     margin-left: 20px;
     height: 150px;
 }
