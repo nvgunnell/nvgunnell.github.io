@@ -21,11 +21,11 @@ home.bindPopup('<h1 id="heading">My House</h1>'+
         '<img src="Young.jpg" id="home">'
         );
 mvhs.bindPopup('<h1 id="heading">Mountain View High School</h1>'+
-        "<p>M.V.H.S. MVHS the best! Home of the bruins. This is where I went to high school. I took a geology class that led me to choose that as my major.</p>"+
+        "<p>M.V.H.S. MVHS the best! Home of the bruins. I graduated from Mountain View in 2011. During my senior year, I took a geology class that led me to choose that as my major.</p>"+
         '<img src="band.jpg" id="mvhs">'
         );
 ljhs.bindPopup('<h1 id="heading">Lakeridge Junior High School</h1>'+
-        "<p>I went to Lakeridge Jr. High School.</p>"+
+        "<p>I went to Lakeridge Jr. High School from 2005-2008. It is conveniently located just down the street from Krispy Kreme and sometimes after track practice we would go over and carb-load on doughnuts.</p>"+
         '<img src="lakeridge.jpg" id="ljhs">'
         );
 vyard.bindPopup('<h1 id="heading">Vineyard Elementary</h1>'+
