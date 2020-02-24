@@ -7,20 +7,28 @@
 }
 
 #heading {
-    font-family: calibri;
+    font-family: gothic;
     text-align: center;
 }
 
 #title {
     text-align: center;
-    color: black;
-    font-family: arial;
+    color: rgba(0, 0, 0, 1.0);
+    font-family: gothic;
+    font-weight: bold;
 }
 
 #subhead {
     text-align: center;
-    color: black;
+    color: rgba(0, 0, 0, 1.0);
     font-size: 60%;
     vertical-align: text-bottom;
-    font-family: arial;
+    font-family: gothic;
+}
+
+body {
+    background-image: url("beach1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%, 200%;
 }
