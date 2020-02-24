@@ -1,0 +1,26 @@
+#mymap {
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    /*float: center;*/
+}
+
+#heading {
+    font-family: calibri;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    color: black;
+    font-family: arial;
+}
+
+#subhead {
+    text-align: center;
+    color: black;
+    font-size: 60%;
+    vertical-align: text-bottom;
+    font-family: arial;
+}
