@@ -1,5 +1,5 @@
 #mymap {
-    height: 500px;
+    height: 600px;
     width: 80%;
     margin: auto;
     margin-top: 50px;
@@ -30,5 +30,5 @@ body {
     background-image: url("beach1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 20%, 200%;
+    background-position: 50%, 200%;
 }
