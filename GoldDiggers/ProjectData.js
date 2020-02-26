@@ -8,14 +8,20 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoibmxpbnRvbjI0IiwiYSI6ImNrNnUwcnRidTA1Mzkza3FwaDM1aTRocm8ifQ.mqo3juol2aCkmaremutQDQ'
 }).addTo(mymap);
 
-var layer = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bd70a1dc8595428db3ae8eacd0ed4f76/wms?', {
-            layers: 'Countries_Visited',
+var layer1 = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bc69c70dc6ec4b668efbebcf0c763d30/wms?', {
+            layers: 'hawaii_dem_Clip',
             format: 'image/png',
             transparent: true,
         }).addTo(mymap);
 
-var layer = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bd70a1dc8595428db3ae8eacd0ed4f76/wms?', {
-            layers: 'Countries_Visited',
+var layer2 = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bc69c70dc6ec4b668efbebcf0c763d30/wms?', {
+            layers: 'molokai_dem_Clip',
+            format: 'image/png',
+            transparent: true,
+        }).addTo(mymap);
+
+var layer3 = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bc69c70dc6ec4b668efbebcf0c763d30/wms?', {
+            layers: 'niihau_dem_Clip',
             format: 'image/png',
             transparent: true,
         }).addTo(mymap);
