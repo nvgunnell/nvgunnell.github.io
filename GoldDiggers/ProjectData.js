@@ -9,19 +9,43 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(mymap);
 
 var layer1 = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bc69c70dc6ec4b668efbebcf0c763d30/wms?', {
-            layers: 'hawaii_dem_Clip',
+            layers: 'Hawaii hawaii_dem_Clip',
             format: 'image/png',
             transparent: true,
         }).addTo(mymap);
 
 var layer2 = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bc69c70dc6ec4b668efbebcf0c763d30/wms?', {
-            layers: 'molokai_dem_Clip',
+            layers: 'Molokai molokai_dem_Clip',
             format: 'image/png',
             transparent: true,
         }).addTo(mymap);
 
 var layer3 = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bc69c70dc6ec4b668efbebcf0c763d30/wms?', {
-            layers: 'niihau_dem_Clip',
+            layers: 'Niihau niihau_dem_Clip',
+            format: 'image/png',
+            transparent: true,
+        }).addTo(mymap);
+
+var layer4 = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bc69c70dc6ec4b668efbebcf0c763d30/wms?', {
+            layers: 'Kauai kauai_dem_Clip',
+            format: 'image/png',
+            transparent: true,
+        }).addTo(mymap);
+
+var layer5 = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bc69c70dc6ec4b668efbebcf0c763d30/wms?', {
+            layers: 'Lanai lanai_dem_Clip',
+            format: 'image/png',
+            transparent: true,
+        }).addTo(mymap);
+
+var layer6 = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bc69c70dc6ec4b668efbebcf0c763d30/wms?', {
+            layers: 'Maui maui_dem_Clip',
+            format: 'image/png',
+            transparent: true,
+        }).addTo(mymap);
+
+var layer7 = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-bc69c70dc6ec4b668efbebcf0c763d30/wms?', {
+            layers: 'Oahu oahu_dem_Clip',
             format: 'image/png',
             transparent: true,
         }).addTo(mymap);
