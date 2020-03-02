@@ -37,3 +37,43 @@ figcaption {
     color: gray;
     text-align: left;
     }
+
+#timp {
+    width: 8%;
+
+}
+
+#wedding {
+    width: 8%;
+
+}
+
+#usu {
+    width: 8%;
+
+}
+
+#usu1 {
+    width: 8%;
+
+}
+
+#efy {
+    width: 8%;
+
+}
+
+#bike {
+    width: 8%;
+    transform: rotate(90deg);
+}
+
+#mission {
+    width: 8%;
+
+}
+
+#neb {
+    width: 8%;
+
+}
