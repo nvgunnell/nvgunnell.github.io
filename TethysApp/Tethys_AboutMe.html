@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <head>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <title>Project Proposal</title>
+  </head>
+<html>
+<body>
+<div
+   class="HAimage"
+</div>
+<br>
+<br>
+<h1 class="title">Project Proposal: Estimating Erosion Rates of the Hawaiian Islands</h1>
+ <p class="authors">The Gold Diggers</p>
+<br>
+<br>
+<h2>Overview</h2>
+  <p Class="Overview">Erosion rates on the Hawaiian Islands are often studied and part of that process is estimating the mass flux of an island or part of an island. This can be done by estimating the amount of material that has left the system. The app would let the researcher do this quickly and efficiently.</p>
+<h2>Project Questions</h2>
+<h3>What kind of vector and raster data analysis will be required?</h3>
+  <p>The app would require several different vector and raster data analyses. The tools that would be needed are:</p>
+    <ul>
+      <li>Clip</li>                 <li>Interpolation</li>
+      <li>Zonal Statistics</li>     <li>Extract Data by Point</li>
+      <li>Raster Calculator</li>    <li>Flow Accumulation</li>
+    </ul>
+<h3>What data will be distributed to the app via map services?</h3>
+  <p>The primary data that will be distributed to the app via map services is DEM data. DEM data is common and should be easy to obtain for the Hawaiian Islands. The app will allow the user to specify which of the available datasets to use.</p>
+  <p>The app will also display a map of the Hawaiian Islands where the user can delineate an area to perform the analysis. The map provided to allow the user to specify the region of interest will be distributed by a map service.</p>
+<h3>What geoprocessing workflow will happen on the server?</h3>
+  <p>The user will make points on the map of the highpoints (ridgelines) which will be used to extract the elevation at the points from the DEM of the island. Then these new points will be used to interpolate a new surface, the pre-erosional surface, of the island.The area of interest from the original DEM and the new surface will be clipped. These new clipped rasters are multiplied by the area of each cell so we know the volume of each cell. Then zonal statistics is used to find the total volume of each DEM. The raster raster calculator is used to find the difference and amount of volume lost in the chosen area. Mass flux can then be calculated using the age and density of basalt in the chosen area.</p>
+<h3>What are the Basic functions that will exist on the front-end user interface?</h3>
+  <p>An interactive map of the Hawaiian Islands will be presented on the front-end user interface which will allow the user to scroll and zoom. The map will also allow the user to create points along the ridges of interest. The interactive map will look similar to that of the interactive map provided on the AGRC website (<em>shown below</em>). However, the interactive map created as part of this project will be significantly simpler.</p>
+<figure>
+  <img src="MapExample.JPG" alt="Example map from AGRC website" width="800" height="525"/>
+      <figcaption>Example map from AGRC website</figcaption>
+</figure>
+  <p>There will also be input boxes where the user can enter the age and density of the basalt that will be used in the calculations. Once the area of interest has been defined, the user will be presented with a list of available DEM data, organized by the year the data was collected. The user will select the dataset they are interested in and the app will calculate the difference in volume between the selected data and the interpolated surface.</p>
+  <p>After the volume and mass flux has been calculated, the results will be shown to the user through a table that will pop up at the bottom of the app. The results will be printable so the user can export the results.</p>
+<h3>How will you store the code on Github?</h3>
+  <p>The code for this project will be stored on Nathan's Github account.</p>
+<h3>What license will you licence the source code under?</h3>
+  <p>The source code will be licensed under the MIT license.</p>
+<h2>Mockups</h2>
+<h3>Final Mockup</h3>
+  <img src="FinalMockup1.jpg" alt="Home Page" width="600" height="400" /> <br />
+  <img src="FinalMockup2.jpg" alt="About Page" />
+  <img src="FinalMockup3.jpg" alt="Help Page" />
+<h3>Mockup Drafts</h3>
+  <img src="MockupDraft1.jpg" width="400" height="600"/>
+  <img src="MockupDraft2.jpg" width="400" height="600" />
+  <img src="MockupDraft3.jpg" width="400" height="600" /> <br />
+  <img src="MockupDraft4.jpg" />
+  <img src="MockupDraft5.jpg" />
+  <img src="MockupDraft6.jpg" />
+</body>
+</html>
