@@ -20,18 +20,13 @@ h2 {
     font-weight: bold;
     }
 
+div {
+    padding: 10px;
+}
 
 ul {
     color: gray;
     }
-
-
-.Overview {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    text-align:left;
-    width: 50%;
-    padding-bottom: 20px;
- }
 
 figcaption {
     color: gray;
@@ -69,11 +64,12 @@ figcaption {
 }
 
 #mission {
+    width: 20%;
+    float: right;
+}
+
+#tenn {
     width: 8%;
 
 }
 
-#neb {
-    width: 8%;
-
-}
