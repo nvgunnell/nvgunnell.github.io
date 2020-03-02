@@ -20,19 +20,11 @@ h2 {
     font-weight: bold;
     }
 
-h3 {
-    color: white;
-    font-style: italic
-    }
 
 ul {
     color: gray;
     }
 
-.authors {
-    color: white;
-    text-align: center;
-    }
 
 .Overview {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -40,15 +32,6 @@ ul {
     width: 50%;
     padding-bottom: 20px;
  }
-
-.HAimage {
-    background-image: url("Hawaii.jpg");
-    background-size: cover;
-    height: 400px;
-    object-fit: contain;
-    background-position: center;
-    padding-bottom: 30px;
-    }
 
 figcaption {
     color: gray;

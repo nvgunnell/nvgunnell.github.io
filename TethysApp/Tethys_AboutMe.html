@@ -7,42 +7,35 @@
 <body>
 
 <h1>All About Nathan</h1>
- <p class="authors">The Gold Diggers</p>
+
 <br>
-<br>
-<h2>Overview</h2>
-  <p Class="Overview">Erosion rates on the Hawaiian Islands are often studied and part of that process is estimating the mass flux of an island or part of an island. This can be done by estimating the amount of material that has left the system. The app would let the researcher do this quickly and efficiently.</p>
-<h2>Project Questions</h2>
-<h3>What kind of vector and raster data analysis will be required?</h3>
-  <p>The app would require several different vector and raster data analyses. The tools that would be needed are:</p>
-    <ul>
-      <li>Clip</li>                 <li>Interpolation</li>
-      <li>Zonal Statistics</li>     <li>Extract Data by Point</li>
-      <li>Raster Calculator</li>    <li>Flow Accumulation</li>
-    </ul>
-<h3>What data will be distributed to the app via map services?</h3>
-  <p>The primary data that will be distributed to the app via map services is DEM data. DEM data is common and should be easy to obtain for the Hawaiian Islands. The app will allow the user to specify which of the available datasets to use.</p>
-  <p>The app will also display a map of the Hawaiian Islands where the user can delineate an area to perform the analysis. The map provided to allow the user to specify the region of interest will be distributed by a map service.</p>
-<h3>What geoprocessing workflow will happen on the server?</h3>
-  <p>The user will make points on the map of the highpoints (ridgelines) which will be used to extract the elevation at the points from the DEM of the island. Then these new points will be used to interpolate a new surface, the pre-erosional surface, of the island.The area of interest from the original DEM and the new surface will be clipped. These new clipped rasters are multiplied by the area of each cell so we know the volume of each cell. Then zonal statistics is used to find the total volume of each DEM. The raster raster calculator is used to find the difference and amount of volume lost in the chosen area. Mass flux can then be calculated using the age and density of basalt in the chosen area.</p>
-<h3>What are the Basic functions that will exist on the front-end user interface?</h3>
-  <p>An interactive map of the Hawaiian Islands will be presented on the front-end user interface which will allow the user to scroll and zoom. The map will also allow the user to create points along the ridges of interest. The interactive map will look similar to that of the interactive map provided on the AGRC website (<em>shown below</em>). However, the interactive map created as part of this project will be significantly simpler.</p>
-<figure>
-  <img src="MapExample.JPG" alt="Example map from AGRC website" width="800" height="525"/>
-      <figcaption>Example map from AGRC website</figcaption>
-</figure>
-  <p>There will also be input boxes where the user can enter the age and density of the basalt that will be used in the calculations. Once the area of interest has been defined, the user will be presented with a list of available DEM data, organized by the year the data was collected. The user will select the dataset they are interested in and the app will calculate the difference in volume between the selected data and the interpolated surface.</p>
-  <p>After the volume and mass flux has been calculated, the results will be shown to the user through a table that will pop up at the bottom of the app. The results will be printable so the user can export the results.</p>
-<h3>How will you store the code on Github?</h3>
-  <p>The code for this project will be stored on Nathan's Github account.</p>
-<h3>What license will you licence the source code under?</h3>
-  <p>The source code will be licensed under the MIT license.</p>
-<h2>Mockups</h2>
-<h3>Final Mockup</h3>
-  <img src="FinalMockup1.jpg" alt="Home Page" width="600" height="400" /> <br />
-  <img src="FinalMockup2.jpg" alt="About Page" />
-  <img src="FinalMockup3.jpg" alt="Help Page" />
-<h3>Mockup Drafts</h3>
+
+<h2>Growing Up</h2>
+<p>I grew up in the distant land of Orem, UT. </p>
+<h2>Mission</h2>
+<p>I served my mission in the Madagascar, Antananarivo mission from 2012 to 2014 (no it is nothing like the movie). I
+served in 5 different areas and really grew in my testimony and developed many friendships.</p>
+<h2>Utah State</h2>
+<p>After high school, I went to a semester at Utah State before leaving on my mission. I began as a mechanical
+engineering major, but ended up switching to geology. I developed a really strong friendship with all my roommates. It
+was that first semester that I met my wife who was the ward choir director. After our missions we ended up in the same
+ward again and Dr. Ames's brother was our bishop. We got married in August of 2016. Every summer prior to getting
+married, I was an EFY counselor which was an amazing opportunity. I graduated in December 2016 and took a year off from
+school while my wife finished up her degree.</p>
+<h2>BYU</h2>
+<p>Growing up in Orem I always wanted to go to BYU. I've been a die-hard BYU fan my whole life (my roommates at USU
+never appreciated that I would wear my BYU attire whenever BYU played Utah State in anything). My brothers and I have a
+tradition of going to 1 road football game every year. I got admitted to grad school in 2018 and began my research that
+summer. I am currently finishing my thesis and should defend at the end of this month.</p>
+<h2>Hobbies</h2>
+<p>I enjoy many different things. I love just about every sport, though I especially enjoy basketball, football,
+mountain biking, and disc golf. I also like to cook/bake, especially dessert which can be both a good and bad thing.</p>
+<img src="" id="">
+<img src="" id="">
+<img src="" id="">
+<img src="" id="">
+<img src="" id="">
+<img src="" id="">
 
 </body>
 </html>
